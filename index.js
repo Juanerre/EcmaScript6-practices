@@ -61,5 +61,7 @@ let equipo = [...team1, 'Roberto', ...team2, 'Juan'];
 
 console.log(equipo);
 
-// let es igual a var pero con scope local.
-// var tiene scope global
+// let es igual a var pero con scope local, var tiene scope global.
+
+const a = 'b';
+// es6 lo deja constante y no deja cambiarlo despues se vuelve constante.
